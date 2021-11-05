@@ -1,0 +1,36 @@
+.seguroDiv {
+  align-items: center;
+  justify-content: space-between;
+  .titulo {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 86px;
+    color: var(--blueSuzuki);
+  }
+  .segundoNivel{
+      font-size: 44px;
+      font-weight: bold;
+      line-height: 100%;
+      color: var(--blueSuzuki);
+  }
+  .bgGray{
+    background: #4B5E65;
+    padding: 46px 25px 46px 70px;
+  }
+  .seccion{
+      align-items: center;
+      justify-content: center;
+      .texto{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 160%;
+        color: black;
+      }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .bgGray {
+      padding: 46px 15px ;
+    }
+  }
+}

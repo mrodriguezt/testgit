@@ -1,0 +1,291 @@
+.container-agencias {
+  background: #f8f8f6;
+  .header-breadcrumb {
+    position: absolute;
+    z-index: 1;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+  .titulo-pagina {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+  }
+  .nav-tabs {
+    border: 0;
+    .nav-link {
+      color: #888888;
+      border: 0;
+      border-bottom: 3px solid #e0e0e0;
+      font-size: 20px;
+      padding: 0px 20px;
+      &.active {
+        color: #004f9f;
+        font-weight: 700;
+        border: 0;
+        border-bottom: 3px solid #004f9f;
+        background-color: transparent;
+      }
+    }
+  }
+  .tab-content {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .list-items {
+    overflow-y: auto;
+    overflow-x: auto;
+    border: none !important;
+    height: 40vh;
+    .item {
+      border: 1px solid #f0f0f0;
+      padding: 12px 20px;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .agencie-info{
+        width: 90%;
+        overflow:hidden;
+      }
+      p {
+        margin: 0;
+        color: #404042;
+        font-weight: 500;
+        font-size: 16px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width:100%;
+        overflow:hidden;
+        &:last-child {
+          font-size: 14px;
+          color:#888;
+          font-weight: normal;
+        }
+      }
+      &::after {
+        display: inline-block;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        content: "";
+        padding: 12px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.4992 12L8.99922 19.5L7.94922 18.45L14.3992 12L7.94922 5.55L8.99922 4.5L16.4992 12Z' fill='black'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+      }
+      
+      &.active {
+        background: linear-gradient(0deg, var(--blueSuzuki), var(--blueSuzuki)), #ffffff;
+        border: 1px solid var(--blueSuzuki);
+        box-sizing: border-box;
+        border-radius: 2px 2px 0px 0px;
+        &::after {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.4992 12L8.99922 19.5L7.94922 18.45L14.3992 12L7.94922 5.55L8.99922 4.5L16.4992 12Z' fill='white'/%3E%3C/svg%3E");}
+        p {
+          color: white;
+        }
+      }
+    }
+  }
+  .ciudades{
+    display: flex;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    top:0;
+    border: 1px solid var(--blueSuzuki);
+    .item{
+      padding: 10px 0px;
+    }
+  }
+  .container-location {
+    background: #ffffff;
+    border: 1px solid var(--blueSuzuki);
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 14px 10px 14px 20px;
+    &.selected{
+      background: var(--blueSuzuki);
+      .ubicacion::before{
+        content: url("/images/icons/iconoUbicacionWhite.svg");
+      }
+      .ciudad::before{
+        content: url("/images/icons/iconoCiudadWhite.svg");
+      }
+      .label-ubicacion{
+        color: white;
+      }
+    }
+
+    .ubicacion::before{
+        content: url("/images/icons/iconoMiUbicacion.svg");
+      }
+      .ciudad::before{
+        content: url("/images/icons/iconoCiudad.svg");
+      }
+
+    .label-ubicacion {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 28px;
+      color: var(--blueSuzuki);
+      width: 14rem;
+      
+    }
+    img {
+      margin: 0 8px;
+    }
+  }
+  .col-padding {
+    padding: 0 15px;
+  }
+
+  .titulo-list-items-agencias {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #404042;
+  }
+  .card-map {
+    position: relative !important;
+    width: 22rem;
+    background: #fdfdfd;
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px #d0d0d0;
+    border-radius: 2px;
+    height: auto !important;
+    max-height: 25rem !important;
+    display: none !important;
+    overflow-y: auto;
+    &.show {
+      display: flex !important;
+      .card-body {
+        padding: 20px;
+      }
+      p {
+        margin: 4px 0px;
+      }
+      .nombre {
+        color: #404042;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+      }
+      .direccion {
+        font-size: 16px;
+        line-height: 140%;
+        color: #888888;
+        margin: 4px 0px;
+      }
+      .horario {
+        margin-top: 16px;
+        .horario-t {
+          font-size: 16px;
+          line-height: 140%;
+          color: #404042;
+        }
+        .horario-c {
+          font-size: 14px;
+          line-height: 17px;
+          color: #888888;
+        }
+      }
+    }
+  }
+
+  .container-flotante-detail-location {
+    top: 30%;
+    right: 10%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    .card {
+      .subtitle3 {
+        font-weight: bold !important;
+        font-size: 16px !important;
+        color: #1a1a1a;
+      }
+      .card-text {
+        font-weight: 300 !important;
+        font-size: 14px !important;
+        line-height: 17px;
+        color: #404042;
+      }
+      .links {
+        font-size: 14px;
+        line-height: 17px;
+        cursor: pointer;
+        text-decoration-line: underline;
+        color: var(--blueSuzuki);
+      }
+    }
+  }
+
+  .div-pointer {
+    cursor: pointer;
+  }
+  .container-map-agencia {
+    min-height: 90vh;
+    height: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container-agencias {
+    .card-map {
+      max-width: auto;
+    }
+    .titulo-pagina {
+      font-size: 24px;
+    }
+    .card-map.show {
+      width: 100% !important;
+      width: 100% !important;
+      border: none !important;
+    }
+    .container-map-agencia {
+      height: 480px;
+    }
+
+    .container-flotante-detail-location {
+      position: relative;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .container-agencias .header-breadcrumb,
+  .container-agencias .titulo-consesionario {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .form-contacto{
+    background:linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-agencias .header-breadcrumb,
+  .container-agencias .titulo-consesionario {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-agencias .header-breadcrumb,
+  .container-agencias .titulo-consesionario {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

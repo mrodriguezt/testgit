@@ -1,0 +1,251 @@
+.input-group.ok > .input {
+  display: block !important;
+  color: #404042 !important;
+}
+.input-group > .input,
+.input-group > .react-datepicker-wrapper {
+  background-color: #ffffff !important;
+  border: unset !important;
+  margin-left: 25px !important;
+  display: inline-block !important;
+  height: 19px !important;
+  width: 100% !important;
+}
+.img-test-drive {
+  height: 100% !important;
+  width: 50%;
+}
+
+.suzuki-driving {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: #404042;
+}
+
+.subtitle-test {
+  font-size: 16px;
+  line-height: 140%;
+  color: #888888;
+  margin: 6px 0px;
+}
+
+.process {
+  max-height: 780px;
+  height: 100vh;
+  min-height: 400px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.process::-webkit-scrollbar {
+  display: none;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.col-texto-hero-test {
+  display: flex;
+
+  padding-left: 4rem !important;
+  padding-right: 0 !important;
+  align-items: center;
+}
+
+.container-test-drive .select > .dropdown-toggle::after {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  margin: 0;
+}
+
+.container-test-drive .container-img-aspect-ratio {
+  position: relative; /* If you want text inside of it */
+}
+
+.container-test-drive .container-img-aspect-ratio::after {
+  display: block;
+  content: "";
+  /* 16:9 aspect ratio */
+  padding-bottom: 32.25%;
+}
+
+/* If you want text inside of the container */
+.container-test-drive .container-img-aspect-ratio img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/**/
+
+.container-test-drive .container-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 16px;
+  color: #888888;
+}
+.text-underline {
+  text-decoration: underline !important;
+}
+/* Hide the browser's default checkbox */
+.container-test-drive .container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.container-test-drive .container-check .checkmark {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-test-drive .container-check input:checked ~ .checkmark {
+  background-color: #e40521;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDE3NC4yMzkgMTc0LjIzOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTc0LjIzOSAxNzQuMjM5O2ZpbGw6d2hpdGU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGQ9Ik03NC40MzksMTU3LjUxOWMtMS41OSwxLjg0OC00LjM0LDEuOTg5LTYuMTExLDAuMzEzTDEuMzgsOTQuNDY4Yy0xLjc3MS0xLjY3Ni0xLjg0OC00LjQ5Ni0wLjE3My02LjI2N2wyMS4zMy0yMi41MzkNCgljMS42NzYtMS43NzEsNC40OTYtMS44NDgsNi4yNjctMC4xNzNsMzYuNTcxLDM0LjYxMWMxLjc3MSwxLjY3Niw0LjUyMSwxLjUzNSw2LjExMS0wLjMxM2w3MS40NDctODMuMDE1DQoJYzEuNTktMS44NDgsNC40MDQtMi4wNTksNi4yNTEtMC40NjhsMjMuNTE4LDIwLjI0MmMxLjg0OCwxLjU5LDIuMDU5LDQuNDA0LDAuNDY4LDYuMjUyTDc0LjQzOSwxNTcuNTE5eiIvPg0KPC9zdmc+DQo=);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.disabled-form-test .label,
+.disabled-form-test .title2,
+.disabled-form-test .select-title,
+.container-test-drive .disabled-form-test .container-check {
+  color: #c5c5c6 !important;
+}
+.disabled-form-test .subtitle2.red,
+.container-test-drive .disabled-form-test .select > .dropdown-toggle::after,
+.container-test-drive .disabled-form-test .container-icon-calendar img,
+.container-test-drive .disabled-form-test .red-asterist {
+  opacity: 0.5;
+}
+
+.container-test-drive .disabled-form-test .btn-enviar-solicitud {
+  border-color: transparent !important;
+}
+
+.container-test-drive .container-icon-calendar {
+  position: absolute;
+  top: 42%;
+  right: 1.1rem;
+  transform: translateY(-50%);
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.container-test-drive .container-icon-calendar img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.container-test-drive .calendario-input {
+  padding-right: 1.9rem !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+.title-addv {
+  font-size: 40px !important;
+}
+/*Extra small*/
+@media (max-width: 575.98px) {
+  .container-test-drive .container-check {
+    font-size: 14px;
+  }
+  .container-test-drive .header-breadcrumb,
+  .container-label-test-drive {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .container-test-drive .title2 {
+    font-size: 22px;
+  }
+  .container-test-drive .select-title {
+    font-size: 15px;
+  }
+
+  .container-test-drive .input-group:not(.focus) .label {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-test-drive .header-breadcrumb div div {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .container-test-drive .header-breadcrumb {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-test-drive .header-breadcrumb div div {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .container-test-drive .header-breadcrumb {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container-mobile-fluid {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .car-container .col-12 {
+    padding: 0 !important;
+  }
+  .container-label-test-drive {
+    background: rgba(235, 235, 235, 1);
+  }
+
+  .container-label-test-drive label {
+    font-size: 24px;
+    color: rgba(64, 64, 66, 1);
+    font-weight: bold;
+  }
+  .container-test-drive .breadcrumb span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

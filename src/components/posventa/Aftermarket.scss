@@ -1,0 +1,303 @@
+.model-detail {
+  .aftermarket {
+    .img-h-a {
+      height: 518px;
+    }
+    .text-title {
+      position: absolute;
+      width: 35.44vw;
+      height: 162px;
+      left: 7.05vw;
+      top: 228px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 90px;
+      line-height: 90%;
+      color: #ffffff;
+    }
+
+
+    .text-description {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 140%;
+      padding-top: 8vh;
+    }
+    .paddin-x {
+      padding-right: 3vw;
+      padding-left: 6vw;
+    }
+    .paddin-x2 {
+      padding-right: 4.5vw;
+      padding-left: 4.5vw;
+    }
+  }
+  .plans {
+    background: #ecf1f4;
+    padding-top: 10vh;
+    overflow: hidden;
+    .line-left {
+      display: block;
+      width: 82%;
+      float: left;
+      height: 0px;
+      background: var(--blueSuzuki);
+      border: 2px solid var(--blueSuzuki);
+    }
+
+    .border-p {
+      border-right: 2px dashed #888888;
+      border-width: 2px;
+      align-self: stretch;
+    }
+    .title-p h1 {
+      font-style: normal;
+      font-weight: bold;
+      text-align: center;
+      font-size: 3vw;
+      color: #004f9f;
+      text-align: center;
+    }
+    .title-p2 h1 {
+      font-style: normal;
+      font-weight: bold;
+      text-align: center;
+      font-size: 3vw;
+      color: var(--blueSuzuki);
+      text-align: center;
+    }
+
+    .text-f {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.5vw;
+      line-height: 25px;
+      color: var(--blueSuzuki);
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 10px;
+      text-transform: uppercase;
+    }
+    @media only screen and (max-width: 576px) {
+
+      .line-left {
+        width: 100%;
+      }
+      padding-top: 6vh;
+      .title-p h1 {
+        font-size: 26px;
+        line-height: 28px;
+      }
+      .title-p2 h1 {
+        font-size: 26px;
+        line-height: 28px;
+      }
+      .text-f {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .border-b {
+      border-bottom: 2px dashed #888888;
+      border-width: 2px;
+      align-self: stretch;
+    }
+    .h-cita {
+      margin-top: 80px;
+      .color {
+        background: var(--blueSuzuki);
+      }
+      .hw-img {
+        width: 100%;
+        height: 509px;
+      }
+      .space-left {
+        padding-left: 6vw;
+      }
+      .title-cita {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 100%;
+        color: #ffffff;
+      }
+      @media only screen and (max-width: 464px) {
+        .title-cita {
+          font-style: 500;
+          font-size: 40px;
+          line-height: 100%;
+        }
+        .hw-img {
+          height: 315px;
+        }
+      }
+    }
+  }
+  .resume {
+    background: var(--blueSuzuki);
+  }
+  .parts {
+    background: #f8f8f6;
+    .line-p {
+      display: block;
+      width: 98%;
+      float: left;
+      height: 0px;
+      background: var(--blueSuzuki);
+      border: 2px solid var(--blueSuzuki);
+    }
+
+    .card {
+      box-shadow: 0px 6px 16px rgba(0, 44, 66, 0.06);
+    }
+  }
+
+  .global {
+    .icondate {
+      position: absolute;
+      right: 6%;
+      top: 33.12%;
+      bottom: 31.25%;
+    }
+    .modal-content {
+      border-radius: 0px;
+    }
+    .text-title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 100%;
+    }
+    .txt-size {
+      font-style: 500;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    @media only screen and (max-width: 464px) {
+      .text-title {
+        font-size: 22px;
+      }
+      .tx-size {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+      }
+
+      .line-left {
+        display: block;
+        width: 100%;
+        float: left;
+        height: 0px;
+        background: var(--blueSuzuki);
+        border: 2px solid var(--blueSuzuki);
+      }
+    }
+    .border-gray {
+      border-right: 0.3rem solid #e0e0e0;
+    }
+    .space-left {
+      padding-left: 5%;
+    }
+    .space-right {
+      padding-right: 4%;
+    }
+    .color-black {
+      color: #404042;
+    }
+    .text-blue {
+      color: #004f9f;
+    }
+    .p-top {
+      padding-top: 3%;
+    }
+    .color-white {
+      background: #f8f8f6;
+    }
+    .color-gris {
+      color: #888888;
+    }
+    .background-gris {
+      background-color: rgba(0, 44, 66, 0.2);
+    }
+    .color-bl {
+      color: var(--blueSuzuki);
+    }
+    .background-bl {
+      background-color: var(--blueSuzuki);
+    }
+    .modal-text {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 28px;
+    }
+  }
+  .warranty {
+    overflow: hidden;
+    .space-l {
+      padding-left: 7%;
+    }
+    .img-h {
+      height: 411px;
+    }
+    .img-background {
+      width: 100%;
+      min-height: 411px;
+      background-size: cover;
+      height: 52vh;
+    }
+    .space-r {
+      padding-right: 4%;
+    }
+    .space-r-t {
+      padding-right: 5%;
+      padding-left: 5%;
+    }
+    .card {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 6px;
+      border-top-width: 11px;
+      border-top-color: #004f9f;
+    }
+    .border-blue {
+      position: absolute;
+      width: 381px;
+      height: 11px;
+      left: 929px;
+      top: 5949px;
+      background: #004f9f;
+      border-radius: 6px 6px 0px 0px;
+    }
+    .car-description {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 140%;
+    }
+    .subtitle-modal {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 100%;
+      border-right: 1px solid #888888;
+    }
+    @media only screen and (max-width: 464px) {
+      .subtitle-modal {
+        font-size: 2vw;
+        line-height: 100%;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .text-icon-resumen-after-market{
+      font-size:1.15rem !important;
+  }
+}
+

@@ -1,0 +1,712 @@
+﻿{"FEATURES":{
+	"stage" :{
+		"stageW" :875,
+		"stageH" :525
+	},
+	"EXT": {
+		"FP_001": { 
+			"feature_id": "FP_001",
+			"label": "LED headlamps",
+			"description": "Bright LED headlamps are used to conserve energy on low-beam. The blue-coloured projector creates a cool impression.",
+			"thumbnail": ["FP_001"],
+			"visible": false,
+			"positions": [{
+				"x":  507,
+				"y":  241
+				},{
+				"x":  298,
+				"y":  241
+				},{
+				"x":  353,
+				"y":  240
+				},{
+				"x":  414,
+				"y":  240
+				},{
+				"x":  475,
+				"y":  240
+				},{
+				"x":  534,
+				"y":  240
+				},{
+				"x":  589,
+				"y":  240
+				},{
+				"x":  636,
+				"y":  240
+				},{
+				"x":  676,
+				"y":  240
+				},{
+				"x":  705,
+				"y":  240
+				},{
+				"x":  726,
+				"y":  239
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  139,
+				"y":  252
+				},{
+				"x":  149,
+				"y":  277
+				},{
+				"x":  167,
+				"y":  297
+				},{
+				"x":  194,
+				"y":  306
+				},{
+				"x":  231,
+				"y":  302
+				},{
+				"x":  276,
+				"y":  287
+				},{
+				"x":  328,
+				"y":  267
+				},{
+				"x":  385,
+				"y":  249
+				},{
+				"x":  446,
+				"y":  241
+			}],
+			"memo": ""
+		},
+		"FP_002": { 
+			"feature_id": "FP_002",
+			"label": "Faros LED de circulación diurna y antiniebla",
+			"description": "Las luces de conducción diurna (DRL, por sus siglas en inglés) de diseño exclusivo cuentan con LED colocados verticalmente. También se proporcionan luces antiniebla que son esenciales para una buena visibilidad de la carretera en condiciones de mal tiempo.",
+			"thumbnail": ["FP_002"],
+			"visible": true,
+			"positions": [{
+				"x":  516,
+				"y":  307
+				},{
+				"x":  575,
+				"y":  307
+				},{
+				"x":  344,
+				"y":  307
+				},{
+				"x":  408,
+				"y":  307
+				},{
+				"x":  473,
+				"y":  307
+				},{
+				"x":  536,
+				"y":  307
+				},{
+				"x":  594,
+				"y":  306
+				},{
+				"x":  646,
+				"y":  305
+				},{
+				"x":  688,
+				"y":  304
+				},{
+				"x":  720,
+				"y":  303
+				},{
+				"x":  742,
+				"y":  302
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  125,
+				"y":  304
+				},{
+				"x":  137,
+				"y":  332
+				},{
+				"x":  155,
+				"y":  355
+				},{
+				"x":  185,
+				"y":  368
+				},{
+				"x":  223,
+				"y":  368
+				},{
+				"x":  270,
+				"y":  355
+				},{
+				"x":  325,
+				"y":  334
+				},{
+				"x":  387,
+				"y":  316
+				},{
+				"x":  452,
+				"y":  308
+			}],
+			"memo": ""
+		},
+		"FP_003": { 
+			"feature_id": "FP_003",
+			"label": "Motivos tradicionales de los SUV de Suzuki",
+			"description": "La esencia del diseño de Suzuki, como la atrevida parrilla de 5 elementos, el fuerte parachoques delantero rematado con elegantes acentos cromados aportan un aspecto elegante y moderno al Vitara",
+			"thumbnail": ["FP_003"],
+			"visible": true,
+			"positions": [{
+				"x":  383,
+				"y":  244
+				},{
+				"x":  449,
+				"y":  244
+				},{
+				"x":  515,
+				"y":  244
+				},{
+				"x":  577,
+				"y":  244
+				},{
+				"x":  632,
+				"y":  244
+				},{
+				"x":  680,
+				"y":  244
+				},{
+				"x":  718,
+				"y":  244
+				},{
+				"x":  746,
+				"y":  244
+				},{
+				"x":  739,
+				"y":  244
+				},{
+				"x":  752,
+				"y":  244
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  119,
+				"y":  261
+				},{
+				"x":  128,
+				"y":  280
+				},{
+				"x":  146,
+				"y":  286
+				},{
+				"x":  174,
+				"y":  281
+				},{
+				"x":  212,
+				"y":  267
+				},{
+				"x":  262,
+				"y":  251
+				},{
+				"x":  319,
+				"y":  244
+			}],
+			"memo": ""
+		},
+		
+		"FP_005": { 
+			"feature_id": "FP_005",
+			"label": "Panoramic sunroof(option)",
+			"description": "The panoramic sunroof consists of two glass panels (one in front of the other), both of which can be slid, realising one of the biggest opening areas in the class.",
+			"thumbnail": ["FP_005"],
+			"visible": false,
+			"positions": [{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  460,
+				"y":  128
+				},{
+				"x":  473,
+				"y":  132
+				},{
+				"x":  480,
+				"y":  135
+				},{
+				"x":  488,
+				"y":  134
+				},{
+				"x":  493,
+				"y":  130
+				},{
+				"x":  495,
+				"y":  126
+				},{
+				"x":  496,
+				"y":  122
+				},{
+				"x":  496,
+				"y":  118
+				},{
+				"x":  493,
+				"y":  117
+				},{
+				"x":  488,
+				"y":  118
+				},{
+				"x":  485,
+				"y":  120
+				},{
+				"x":  470,
+				"y":  123
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+			}],
+			"memo": ""
+		},
+		"FP_006": { 
+			"feature_id": "FP_006",
+			"label": "375L spacious luggage space",
+			"description": "The Vitara’s luggage space is a massive 375 litres. Even when the rear seats are not folded, a golf bag can be stored. Furthermore, various items can be stored by arranging the luggageboard and 60:40-split rear seats.",
+			"thumbnail": ["FP_006"],
+			"visible": true,
+			"positions": [{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  111,
+				"y":  241
+				},{
+				"x":  132,
+				"y":  241
+				},{
+				"x":  162,
+				"y":  241
+				},{
+				"x":  204,
+				"y":  241
+				},{
+				"x":  254,
+				"y":  241
+				},{
+				"x":  312,
+				"y":  241
+				},{
+				"x":  375,
+				"y":  241
+				},{
+				"x":  439,
+				"y":  241
+				},{
+				"x":  504,
+				"y":  252
+				},{
+				"x":  564,
+				"y":  276
+				},{
+				"x":  616,
+				"y":  299
+				},{
+				"x":  659,
+				"y":  312
+				},{
+				"x":  693,
+				"y":  310
+				},{
+				"x":  717,
+				"y":  294
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+			}],
+			"memo": ""
+		},
+		
+		"FP_008": { 
+			"feature_id": "FP_008",
+			"label": "New LED design for rear combination lamps",
+			"description": "ACC with Stop & Go automatically accelerates and brakes the vehicle at speeds from 0 to 160 km/h to follow the vehicle ahead and reduce driving stress. ",
+			"thumbnail": ["FP_008"],
+			"visible": true,
+			"positions": [{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  103,
+				"y":  219
+				},{
+				"x":  119,
+				"y":  217
+				},{
+				"x":  145,
+				"y":  217
+				},{
+				"x":  183,
+				"y":  217
+				},{
+				"x":  232,
+				"y":  217
+				},{
+				"x":  287,
+				"y":  217
+				},{
+				"x":  350,
+				"y":  216
+				},{
+				"x":  416,
+				"y":  216
+				},{
+				"x":  483,
+				"y":  216
+				},{
+				"x":  313,
+				"y":  216
+				},{
+				"x":  377,
+				"y":  216
+				},{
+				"x":  444,
+				"y":  228
+				},{
+				"x":  509,
+				"y":  254
+				},{
+				"x":  570,
+				"y":  285
+				},{
+				"x":  622,
+				"y":  306
+				},{
+				"x":  666,
+				"y":  313
+				},{
+				"x":  702,
+				"y":  302
+				},{
+				"x":  728,
+				"y":  281
+				},{
+				"x":  744,
+				"y":  249
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+			}],
+			"memo": ""
+		}
+	}
+}}

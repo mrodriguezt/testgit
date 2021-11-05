@@ -1,0 +1,110 @@
+.logos-footer {
+  margin-bottom: 1rem;
+  margin-top: 1.2rem;
+  width: 200px;
+}
+
+.footer {
+  position: absolute;
+  z-index: 15;
+  background-color: white;
+  .padding {
+    padding-top: 3%;
+  }
+  .card {
+    background-color: var(--blueSuzuki);
+  }
+  .row {
+    background-color: var(--blueSuzuki);
+  }
+  .col-footer {
+    padding-top: 3rem;
+    padding-left: 7rem !important;
+    color: #1a1a1a !important;
+  }
+  .l-footer {
+    display: block;
+    margin-bottom: 3%;
+    color: #d4d4d4 !important;
+  }
+  .l-footer2 {
+    display: block;
+    margin-bottom: 3%;
+    color: #ffffff !important;
+    font-weight: bold;
+  }
+
+  span.l-footer {
+    color: white !important;
+  }
+
+  .btn-footer {
+    border-color: #1a1a1a !important;
+    border-width: 2px !important;
+    color: #1a1a1a !important;
+    background-color: #fff !important;
+    padding: 5px 15px !important;
+  }
+  .l-footer.subtitle2,
+  .texto-gris-footer {
+    color: #d4d4d4 !important;
+  }
+
+  .icon-drop-down-footer {
+    width: 12px;
+    transform: rotate(180deg);
+  }
+  .header-collpase-footer-card {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+  .icon-top-footer {
+    top: -30px;
+    right: 5vw;
+    z-index: 1;
+    cursor: pointer;
+    align-items: flex-end;
+    display: flex;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .padding-responsive-redes {
+    padding: 0.75rem 1.25rem !important;
+  }
+
+  .icon-top-footer {
+    right: 0px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .padding-responsive-redes {
+    padding: 0.75rem 1.25rem !important;
+  }
+  .icon-top-footer {
+    right: 0px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .padding-responsive-redes {
+    padding: 0.75rem 1.25rem !important;
+  }
+  .icon-top-footer {
+    right: 0px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

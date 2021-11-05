@@ -1,0 +1,850 @@
+﻿{"ITEMS":[{
+		"category_id" : "BACKGROUND",
+		"categoryLabel" : "Background",
+		"groups" : [{
+				"group_id" : "BG",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BG_A",
+					"label" : "Background",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BG_A",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "BODYCOLOR",
+		"categoryLabel" : "Bodycolor",
+		"groups" : [{
+				"group_id" : "BC",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "BC_26U",
+					"label" : "SUPERIOR WHITE",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_26U",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZCF",
+					"label" : "BRIGHT RED 5",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZCF",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZNL",
+					"label" : "COOL WHITE PEARL",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZNL",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZCC",
+					"label" : "SILKY SILVER METALLIC 2",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZCC",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZCD",
+					"label" : "GALACTIC GRAY METALLIC",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZCD",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZCE",
+					"label" : "COSMIC BLACK PEARL METALLIC",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZCE",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZQ3",
+					"label" : "CANYON BROWN PEARL METALLIC",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZQ3",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZQ4",
+					"label" : "SPHERE BLUE PEARL",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZQ4",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZQ5",
+					"label" : "ENERGETIC RED PEARL",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZQ5",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "BC_ZQ6",
+					"label" : "MINERAL GRAY METALLIC 3",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "BC_ZQ6",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "WHEELS",
+		"categoryLabel" : "Wheels",
+		"groups" : [{
+				"group_id" : "WH",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "WH_002",
+					"label" : "16\" Alloy wheels",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_002",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/WH_002",
+					"memo" : ""
+					},{
+					"item_id" : "WH_003",
+					"label" : "17\" Alloy wheels (painted)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_003",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/WH_003",
+					"memo" : ""
+					},{
+					"item_id" : "WH_004",
+					"label" : "17\" Alloy wheels  (polished surface)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_004",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/WH_004",
+					"memo" : ""
+					},{
+					"item_id" : "WH_005",
+					"label" : "17\" Alloy wheels \"Misti\" (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_005",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_006",
+					"label" : "17\" Alloy wheels \"Misti\" (matt black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_006",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+					},{
+					"item_id" : "WH_007",
+					"label" : "17\" Alloy wheels \"Misti\" (black polished)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "WH_007",
+					"isConfig" : true,
+					"marketFlag" : "",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "EXT_OPTION",
+		"categoryLabel" : "Exterior\nOption & Accessory\n(OP)",
+		"groups" : [{
+				"group_id" : "A",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "A_001",
+					"label" : "Roof rail (black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "A_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/A_001",
+					"memo" : ""
+					},{
+					"item_id" : "A_002",
+					"label" : "Roof rail (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "A_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/A_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "B",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "B_001",
+					"label" : "Panoramic Sunroof",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "B_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/B_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "C",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "C_001",
+					"label" : "Rear/Side Garnish (black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "C_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/C_001",
+					"memo" : ""
+					},{
+					"item_id" : "C_002",
+					"label" : "Rear/Side Garnish (silver)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "C_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/C_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "D",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "D_001",
+					"label" : "Headlamps (Halogen projector)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "D_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/D_001",
+					"memo" : ""
+					},{
+					"item_id" : "D_002",
+					"label" : "Headlamps (LED)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "D_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/D_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "E",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "E_001",
+					"label" : "With Fog lamp (Front)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "E_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/E_001",
+					"memo" : ""
+					},{
+					"item_id" : "E_002",
+					"label" : "With Bulb DRL",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "E_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/E_002",
+					"memo" : ""
+					},{
+					"item_id" : "E_003",
+					"label" : "Without Front Fog lamp or Bulb DRL",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "E_003",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/E_003",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "F",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "F_001",
+					"label" : "No Fog lamps (Rear)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "F_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/F_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "G",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "G_001",
+					"label" : "Privacy Glass",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "G_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/G_001",
+					"memo" : ""
+					},{
+					"item_id" : "G_002",
+					"label" : "Privacy Glass",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "G_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/G_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "H",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "H_001",
+					"label" : "Parking sensors (Front)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "H_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/H_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "I",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "I_001",
+					"label" : "Parking sensors (Rear)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "I_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/I_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "K",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "K_001",
+					"label" : "Keyless push start system",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "K_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/K_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "L",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "L_001",
+					"label" : "ALLGRIP",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "L_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/L_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "M",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "M_001",
+					"label" : "License Plate (SX4)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "M_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/M_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "Z",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "Z_001",
+					"label" : "Rear Emblem (SX4 S-CROSS)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Z_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/Z_001",
+					"memo" : ""
+					},{
+					"item_id" : "Z_002",
+					"label" : "Rear Emblem (SX4)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Z_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/Z_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "AC",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "AC_001",
+					"label" : "Hybrid Emblem (48V SHVS)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "AC_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/AC_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "N",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "N_001",
+					"label" : "Roof edge spoiler",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "N_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/N_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "O",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "O_001",
+					"label" : "Front Rear Skid Plate",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "O_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/O_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "Q",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "Q_001",
+					"label" : "Door handle cover (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/Q_001",
+					"memo" : ""
+					},{
+					"item_id" : "Q_002",
+					"label" : "Door handle cover (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Q_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/Q_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "R",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "R_001",
+					"label" : "Side skirt garnish",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "R_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/R_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "S",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "S_001",
+					"label" : "Side  body moulding (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "S_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/S_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "T",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "T_001",
+					"label" : "Side body moulding with SX4 badge",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "(silver/ black)/(black/white)",
+					"price" : "",
+					"thumbnail" : "T_001",
+					"isConfig" : false,
+					"marketFlag" : "M_CH_O/T_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "U",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "U_001",
+					"label" : "Rear hatch moulding (chrome)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "U_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/U_001",
+					"memo" : ""
+					},{
+					"item_id" : "U_002",
+					"label" : "Rear hatch moulding (brushed aluminium)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "U_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/U_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "V",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "V_001",
+					"label" : "Rigid mud flap set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "V_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/V_001",
+					"memo" : ""
+					},{
+					"item_id" : "V_002",
+					"label" : "Flexible mud flap set",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "V_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/V_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "X",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "X_001",
+					"label" : "Loading edge protection (black)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "X_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/X_001",
+					"memo" : ""
+					},{
+					"item_id" : "X_002",
+					"label" : "Loading edge protection (aluminium)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "X_001",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "X_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/X_002",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "AA",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "AA_001",
+					"label" : "Bumper protection foil (black/transparent)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "AA_001",
+					"isConfig" : false,
+					"marketFlag" : "M_CH_O/AA_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "AB",
+				"type" : "check",
+				"items" : [{
+					"item_id" : "AB_001",
+					"label" : "Rear Combination Lamps(LED)",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "AB_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/AB_001",
+					"memo" : ""
+				}]
+			},{
+				"group_id" : "Y",
+				"type" : "mix",
+				"items" : [{
+					"item_id" : "Y_001",
+					"label" : "Multi roof rack",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Y_001",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/Y_001",
+					"memo" : ""
+					},{
+					"item_id" : "Y_002",
+					"label" : "Multi roof rack",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "Y_002",
+					"isConfig" : true,
+					"marketFlag" : "M_CH_O/Y_001",
+					"memo" : ""
+			}]
+		}]
+	},{
+		"category_id" : "INT_BASE",
+		"categoryLabel" : "Interior",
+		"groups" : [{
+				"group_id" : "INTBASE",
+				"type" : "radio",
+				"items" : [{
+					"item_id" : "INTBASE_001",
+					"label" : "SLDA w/sunroof",
+					"checked" : true,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_001",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/INTBASE_001",
+					"memo" : ""
+					},{
+					"item_id" : "INTBASE_002",
+					"label" : "SLDA w/o sunroof",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_002",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/INTBASE_002",
+					"memo" : ""
+					},{
+					"item_id" : "INTBASE_003",
+					"label" : "no SLDA with sunroof",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_003",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/INTBASE_003",
+					"memo" : ""
+					},{
+					"item_id" : "INTBASE_004",
+					"label" : "no SLDA w/o sunroof",
+					"checked" : false,
+					"visible" : true,
+					"subItem" : "",
+					"description" : "",
+					"price" : "",
+					"thumbnail" : "INTBASE_004",
+					"isConfig" : true,
+					"marketFlag" : "M_C_O/INTBASE_004",
+					"memo" : ""
+				}]
+			}]
+	}]
+}

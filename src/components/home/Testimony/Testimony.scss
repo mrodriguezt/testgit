@@ -1,0 +1,52 @@
+.testimony {
+  overflow: hidden;
+  align-content: space-evenly;
+  .list-testimony {
+    .card {
+      margin-bottom: 10px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    }
+    .descripcion {
+      height: 80px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 18px;
+    }
+    .v-mas {
+      font-size: 16px;
+      margin-top: 25px;
+      color: #404042;
+      text-decoration-line: underline;
+    }
+    .color-dark{
+      color: #000000;
+    }
+    .h-card{
+      height:280px !important;
+    }
+    .react-multi-carousel-item--active.item_galery {
+      width: 700px !important;
+      height: auto !important;
+      margin-left: 3%;
+      margin-right: -24px;
+      margin-top: unset !important;
+    }
+
+    .react-multi-carousel-item--active.item_galery.react-multi-carousel-item--active
+      ~ .item_galery.react-multi-carousel-item--active {
+      margin-top: 195px !important;
+      width: 270px !important;
+      height: 220px !important;
+      margin-left: -15px !important;
+      margin-right: -2px !important;
+      cursor: pointer;
+    }
+    @media only screen and (max-width: 464px) {
+      .v-mas {
+        font-size: 20px;
+      }
+    }
+    @media (min-width: 464px) and(max-width:1024) {
+    }
+  }
+}

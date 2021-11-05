@@ -1,0 +1,99 @@
+.why,
+.corporativo {
+  overflow: hidden;
+  .line {
+    width: 306px !important;
+    height: 10px !important;
+    background: var(--blueSuzuki) !important;
+  }
+  .lifestyle,
+  .traccion,
+  .info,
+  .fondo {
+    background: #f8f8f6;
+  }
+  .line-dot {
+    width: 8vw;
+    height: 4px;
+    margin: 40px 0;
+  }
+  .item-banner{
+    height: 500px;
+    width: auto;
+  }
+  
+  .imageBanner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .inicio .imageBanner{
+    height: 570px;
+  }
+  .line-dot.inactive {
+    background: #eaeaea;
+  }
+  
+  .line-dot.active {
+    background: #004f9f;
+  }
+  .react-multi-carousel-dot-list.dots {
+    position: relative;
+    top: -70px;
+    float: right;
+  }
+  
+  .react-multi-carousel-dot-list.dots > li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .react-multi-carousel-dot-list.dots > .active {
+    margin-left: -15px;
+  }
+  .fondo {
+    height: 100px;
+    position: absolute;
+    top: -100px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .fondo {
+      height: 40px;
+      position: absolute;
+      top: -40px;
+    }
+  }
+
+  .inicio {
+    z-index: 1;
+    justify-content: space-between;
+  }
+  .imagenP {
+    padding: 0 !important;
+  }
+  .title {
+    font-size: 80px !important;
+    line-height: 100% !important;
+    font-weight: bold !important;
+    text-transform: none;
+  }
+  .titulo {
+    position: absolute;
+    top: -60px;
+  }
+  .co2 .titulo {
+    position: absolute;
+    top: -167px;
+  }
+  .title1 {
+    font-weight: bold !important;
+    font-size: 50px !important;
+    line-height: 100% !important;
+  }
+  .subtitle2 {
+    font-size: 20px !important;
+    line-height: 140% !important;
+    color: #888888 !important;
+  }
+}

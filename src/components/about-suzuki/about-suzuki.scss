@@ -1,0 +1,53 @@
+.about-suzuki {
+  .titulo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 86px;
+    color: var(--blueSuzuki);
+  }
+  .texto {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160%;
+    color: #000000;
+  }
+  .subtitulo {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    color: var(--blueSuzuki);
+  }
+  .size-img-new {
+    height: 700px;
+    width: 715px;
+  }
+  .color-cream {
+    background: #f8f8f6;
+  }
+  .p-top {
+    padding-top: 8%;
+  }
+  .p-bottom {
+    padding-bottom: 8%;
+  }
+  .p-x {
+    padding-left: 5.3%;
+    padding-right: 6%;
+  }
+  .texto-blue{
+    color: #002C42;
+    font-weight: bold;
+
+  }
+  @media only screen and (max-width:992px){
+    .p-x {
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+    .size-img-new {
+      height: 350px;
+      width: 357px;
+    }
+  }
+}

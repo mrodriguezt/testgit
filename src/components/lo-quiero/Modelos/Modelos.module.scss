@@ -1,0 +1,107 @@
+.containerGallery {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  background: linear-gradient(0deg, #f8f8f6, #f8f8f6);
+
+  .react-multi-carousel-item--active.item_galery {
+    width: 700px !important;
+    height: auto !important;
+    margin-left: 3%;
+    margin-right: -24px;
+    margin-top: unset !important;
+  }
+
+  .react-multi-carousel-item--active.item_galery.react-multi-carousel-item--active
+    ~ .item_galery.react-multi-carousel-item--active {
+    margin-top: 195px !important;
+    width: 270px !important;
+    height: 220px !important;
+    margin-left: -15px !important;
+    margin-right: -2px !important;
+    cursor: pointer;
+  }
+  /*Items*/
+  .carousel-items {
+    justify-content: center;
+    .item,
+    .card {
+      text-align: center;
+      background: #ffffff;
+      border: 1px solid #fafafa;
+      box-sizing: border-box;
+      box-shadow: 0px 6px 16px rgba(0, 44, 66, 0.06);
+      border-radius: 2px;
+    }
+  }
+  .caracteristicas {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    .textSec {
+      font-size: 16px;
+      align-items: center;
+      display: flex;
+      color: #404042;
+      label {
+        margin: 0;
+      }
+      .normal {
+        margin-right: 0.5rem;
+      }
+    }
+    button {
+      width: 100%;
+    }
+  }
+  .txtAl {
+    text-align: left !important;
+  }
+
+  /*Items info*/
+  .title-item {
+    width: 45%;
+    height: 40px;
+    line-height: 38px;
+  }
+
+  .item-img {
+    max-width: -webkit-fill-available;
+  }
+
+  .cutbig > .padd {
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .card {
+      height: 680px !important;
+    }
+    .txtAl {
+      text-align: center !important;
+    }
+    .caracteristicas {
+      align-items: flex-start;
+      .textSec {
+        font-size: 17px;
+        align-items: center;
+        flex-flow: column;
+        img {
+          margin: auto;
+        }
+        .normal {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container-gallery {
+    min-height: fit-content;
+  }
+}

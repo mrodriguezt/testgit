@@ -1,0 +1,11 @@
+﻿{"COMBINATIONS":{
+		"O_001":{
+			"invalid" : ["V_001"],
+			"valid" : []
+		},
+		"V_001":{
+			"invalid" : ["O_001"],
+			"valid" : []
+		}
+	}
+}

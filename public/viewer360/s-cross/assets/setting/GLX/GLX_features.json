@@ -1,0 +1,595 @@
+﻿{"FEATURES":{
+	"stage" :{
+		"stageW" :875,
+		"stageH" :525
+	},
+	"EXT": {
+		"FP_001": { 
+			"feature_id": "FP_001",
+			"label": "Panoramic sunroof",
+			"description": "The double sliding glass design gives the panoramic sunroof a huge opening area – and all the space you need to let your imagination conquer the sky.",
+			"thumbnail": ["FP_001"],
+			"visible": true,
+			"positions": [{
+				"x":  462,
+				"y":  116
+				},{
+				"x":  452,
+				"y":  116
+				},{
+				"x":  437,
+				"y":  116
+				},{
+				"x":  430,
+				"y":  116
+				},{
+				"x":  423,
+				"y":  116
+				},{
+				"x":  409,
+				"y":  116
+				},{
+				"x":  401,
+				"y":  116
+				},{
+				"x":  391,
+				"y":  116
+				},{
+				"x":  382,
+				"y":  116
+				},{
+				"x":  373,
+				"y":  116
+				},{
+				"x":  363,
+				"y":  116
+				},{
+				"x":  353,
+				"y":  116
+				},{
+				"x":  348,
+				"y":  116
+				},{
+				"x":  353,
+				"y":  116
+				},{
+				"x":  361,
+				"y":  116
+				},{
+				"x":  370,
+				"y":  116
+				},{
+				"x":  379,
+				"y":  116
+				},{
+				"x":  388,
+				"y":  116
+				},{
+				"x":  397,
+				"y":  116
+				},{
+				"x":  407,
+				"y":  116
+				},{
+				"x":  418,
+				"y":  116
+				},{
+				"x":  430,
+				"y":  116
+				},{
+				"x":  442,
+				"y":  116
+				},{
+				"x":  452,
+				"y":  116
+				},{
+				"x":  461,
+				"y":  116
+				},{
+				"x":  470,
+				"y":  116
+				},{
+				"x":  479,
+				"y":  116
+				},{
+				"x":  488,
+				"y":  116
+				},{
+				"x":  497,
+				"y":  116
+				},{
+				"x":  505,
+				"y":  116
+				},{
+				"x":  512,
+				"y":  116
+				},{
+				"x":  508,
+				"y":  116
+				},{
+				"x":  503,
+				"y":  116
+				},{
+				"x":  493,
+				"y":  116
+				},{
+				"x":  483,
+				"y":  116
+				},{
+				"x":  473,
+				"y":  116
+			}],
+			"memo": ""
+		},
+		"FP_002": { 
+			"feature_id": "FP_002",
+			"label": "Roof Rails",
+			"description": "Integrated roof rails combine sharp looks with aerodynamic smoothness.",
+			"thumbnail": ["FP_002"],
+			"visible": true,
+			"positions": [{
+				"x":  379,
+				"y":  116
+				},{
+				"x":  370,
+				"y":  116
+				},{
+				"x":  361,
+				"y":  116
+				},{
+				"x":  352,
+				"y":  116
+				},{
+				"x":  343,
+				"y":  116
+				},{
+				"x":  328,
+				"y":  116
+				},{
+				"x":  323,
+				"y":  116
+				},{
+				"x":  318,
+				"y":  116
+				},{
+				"x":  313,
+				"y":  116
+				},{
+				"x":  308,
+				"y":  116
+				},{
+				"x":  303,
+				"y":  116
+				},{
+				"x":  298,
+				"y":  116
+				},{
+				"x":  293,
+				"y":  116
+				},{
+				"x":  288,
+				"y":  116
+				},{
+				"x":  283,
+				"y":  116
+				},{
+				"x":  278,
+				"y":  116
+				},{
+				"x":  288,
+				"y":  116
+				},{
+				"x":  298,
+				"y":  116
+				},{
+				"x":  309,
+				"y":  116
+				},{
+				"x":  320,
+				"y":  116
+				},{
+				"x":  332,
+				"y":  116
+				},{
+				"x":  343,
+				"y":  116
+				},{
+				"x":  353,
+				"y":  116
+				},{
+				"x":  363,
+				"y":  116
+				},{
+				"x":  373,
+				"y":  116
+				},{
+				"x":  383,
+				"y":  116
+				},{
+				"x":  393,
+				"y":  116
+				},{
+				"x":  403,
+				"y":  116
+				},{
+				"x":  412,
+				"y":  116
+				},{
+				"x":  422,
+				"y":  116
+				},{
+				"x":  432,
+				"y":  116
+				},{
+				"x":  424,
+				"y":  116
+				},{
+				"x":  415,
+				"y":  116
+				},{
+				"x":  406,
+				"y":  116
+				},{
+				"x":  397,
+				"y":  116
+				},{
+				"x":  388,
+				"y":  116
+			}],
+			"memo": ""
+		},
+		
+		"FP_004": { 
+			"feature_id": "FP_004",
+			"label": "ALLGRIP SELECT",
+			"description": "The 4WD system \"ALLGRIP SELECT\" has four modes of Auto, Sport, Snow and Lock. The driver can select the modes in accordance with road surface conditions and driving scenarios using a simple push-and-turn dial on the centre console.",
+			"thumbnail": ["FP_004_1","FP_004_2","FP_004_3"],
+			"visible": true,
+			"positions": [{
+				"x":  450,
+				"y":  350
+				},{
+				"x":  500,
+				"y":  350
+				},{
+				"x":  545,
+				"y":  350
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  313,
+				"y":  350
+				},{
+				"x":  358,
+				"y":  350
+				},{
+				"x":  408,
+				"y":  350
+				},{
+				"x":  458,
+				"y":  350
+				},{
+				"x":  508,
+				"y":  350
+				},{
+				"x":  553,
+				"y":  350
+				},{
+				"x":  592,
+				"y":  345
+				},{
+				"x":  624,
+				"y":  342
+				},{
+				"x":  649,
+				"y":  339
+				},{
+				"x":  666,
+				"y":  335
+				},{
+				"x":  675,
+				"y":  331
+				},{
+				"x":  676,
+				"y":  327
+				},{
+				"x":  670,
+				"y":  324
+				},{
+				"x":  657,
+				"y":  320
+				},{
+				"x":  638,
+				"y":  317
+				},{
+				"x":  615,
+				"y":  314
+				},{
+				"x":  590,
+				"y":  314
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  270,
+				"y":  314
+				},{
+				"x":  245,
+				"y":  314
+				},{
+				"x":  222,
+				"y":  316
+				},{
+				"x":  203,
+				"y":  319
+				},{
+				"x":  190,
+				"y":  323
+				},{
+				"x":  184,
+				"y":  327
+				},{
+				"x":  185,
+				"y":  331
+				},{
+				"x":  194,
+				"y":  335
+				},{
+				"x":  211,
+				"y":  339
+				},{
+				"x":  235,
+				"y":  342
+				},{
+				"x":  268,
+				"y":  345
+				},{
+				"x":  307,
+				"y":  347
+				},{
+				"x":  352,
+				"y":  349
+				},{
+				"x":  400,
+				"y":  350
+			}],
+			"memo": ""
+		},
+		"FP_005": { 
+			"feature_id": "FP_005",
+			"label": "DISEÑO FRONTAL",
+			"description": "Observa dentro de su vigoroso rostro masculino, El frente atrevido es la particularidad característica de un diseño novedoso con un carácter de SUV robusto. La nueva e impresionante rejilla delantera levanta la punta del capó - irradiando vigor dinámico junto con nuevas bandas protectoras",
+			"thumbnail": ["FP_005"],
+			"visible": true,
+			"positions": [{
+				"x":  243,
+				"y":  287
+				},{
+				"x":  307,
+				"y":  290
+				},{
+				"x":  377,
+				"y":  290
+				},{
+				"x":  449,
+				"y":  291
+				},{
+				"x":  521,
+				"y":  291
+				},{
+				"x":  589,
+				"y":  290
+				},{
+				"x":  649,
+				"y":  288
+				},{
+				"x":  700,
+				"y":  285
+				},{
+				"x":  739,
+				"y":  282
+				},{
+				"x":  766,
+				"y":  279
+				},{
+				"x":  781,
+				"y":  275
+				},{
+				"x":  784,
+				"y":  270
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  92,
+				"y":  274
+				},{
+				"x":  98,
+				"y":  277
+				},{
+				"x":  116,
+				"y":  280
+				},{
+				"x":  147,
+				"y":  283
+				},{
+				"x":  191,
+				"y":  286
+			}],
+			"memo": ""
+		},
+		
+		"FP_007": { 
+			"feature_id": "FP_007",
+			"label": "GENEROUS LUGGAGE ROOM",
+			"description": "Even with five people aboard, there’s 430 litres* of luggage space. \nBy folding down the 60:40-split rear seatback, you can expand the space in diverse ways.\nA multi-position luggage board gives even greater flexibility.\n* Luggage space measured using the German Association of the Automotive Industry (VDA) method. ",
+			"thumbnail": ["FP_007"],
+			"visible": true,
+			"positions": [{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x":  102,
+				"y":  209
+				},{
+				"x":  107,
+				"y":  209
+				},{
+				"x":  122,
+				"y":  209
+				},{
+				"x":  147,
+				"y":  209
+				},{
+				"x":  187,
+				"y":  209
+				},{
+				"x":  237,
+				"y":  209
+				},{
+				"x":  297,
+				"y":  209
+				},{
+				"x":  362,
+				"y":  209
+				},{
+				"x":  430,
+				"y":  209
+				},{
+				"x":  498,
+				"y":  209
+				},{
+				"x":  563,
+				"y":  209
+				},{
+				"x":  623,
+				"y":  209
+				},{
+				"x":  673,
+				"y":  209
+				},{
+				"x":  713,
+				"y":  209
+				},{
+				"x":  738,
+				"y":  209
+				},{
+				"x":  753,
+				"y":  209
+				},{
+				"x":  758,
+				"y":  209
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+				},{
+				"x": null,
+				"y": null
+			}],
+			"memo": ""
+		}
+	}
+}}

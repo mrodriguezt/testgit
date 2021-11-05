@@ -1,0 +1,73 @@
+.bg-div{
+background-image: -webkit-linear-gradient(0deg, #F5F5F5 65%, #E6E6E6 35%);
+}
+
+.modal-payment> .modal-dialog > .modal-content{
+	background-color: #fff!important;
+}
+
+.modal-payment> .modal-dialog > .modal-content >.modal-header, .modal-payment> .modal-dialog > .modal-content >.modal-footer{
+	border-bottom: unset !important;
+	border-top: unset !important;
+}
+
+.summary{
+	background: #FFFFFF;
+	border: 1px solid #00A98E;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+.text-detail{
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.total{
+	background: #004C70;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	height: 32px;
+}
+
+@media only screen and (max-width: 464px) {
+	.summary .text-detail{
+		font-weight: 700;
+		font-size: 14px;
+	}
+
+	.summary .text-sec{
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+	.summary .subtitle{
+		font-weight: 700;
+		font-size: 24px;
+	}
+
+	.summary .text{
+		font-weight: 400;
+		font-size: 24px;
+	}
+
+	.total {
+		height: 40px;
+	}
+
+	.form-group-pay > input{
+		height: 51px;
+	}
+
+	.form-group-pay label{
+		font-weight: 400;
+		font-size: 14px;
+		color: #404042;
+	}
+
+	.btn-pay{
+		width: 100%;
+		height: 48px!important;
+		margin-bottom: 15px;
+	}
+}

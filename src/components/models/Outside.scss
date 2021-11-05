@@ -1,0 +1,312 @@
+.model-detail {
+  .detail-outside {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  }
+
+  /**Title exterior */
+  .title-outside {
+    font-weight: 500;
+    font-size: 5.62rem;
+    line-height: 90%;
+
+    color: var(--blueSuzuki);
+  }
+  .subtitle-outside {
+    font-weight: 450;
+    font-size: 3.12rem;
+    line-height: 100%;
+
+    color: var(--blueSuzuki);
+  }
+  .acentos-primer-nivel p{
+    margin-bottom: 0px;
+  }
+
+
+  .d-right {
+    margin-left: 50% !important;
+  }
+  .line-faros {
+    border-top: 5px solid var(--blueSuzuki) !important;
+    width: 100%;
+  }
+
+  .line-faros-left {
+    border-top: 5px solid var(--blueSuzuki) !important;
+    width: 100%;
+  }
+  .outside-over {
+    width: 32% !important;
+    height: 40% !important;
+    background-color: var(--blueSuzuki);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: -15px;
+  }
+
+  @media (max-width: 1085px) {
+    .outside-over {
+      height: 60% !important;
+      width: 40% !important;
+      p {
+        margin-top: 0% !important;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .outside-over {
+      height: 60% !important;
+      width: 40% !important;
+      p {
+        margin-top: 0% !important;
+      }
+    }
+  }
+  .outside-over-r {
+    width: 70vw !important;
+    height: 35vh !important;
+    padding-left: 20%;
+    background-color: var(--blueSuzuki);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 30%;
+  }
+  @media (max-width: 1082px) {
+    .outside-over-r {
+      width: 60vw !important;
+      left: 40% !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .outside-over-r {
+      width: 54vw !important;
+      left: 45% !important;
+      padding-left: 60px !important;
+    }
+  }
+  //NUEVOS AROS RUEDA DOS
+  .outside-over-l {
+    width: 70vw !important;
+    height: 35vh !important;
+    padding-left: 10%;
+    background-color: #4b5e65;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 30%;
+  }
+  @media (max-width: 1082px) {
+    .outside-over-l {
+      width: 60vw !important;
+      right: 40% !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .outside-over-l {
+      width: 54vw !important;
+      right: 45% !important;
+      padding-right: 60px !important;
+    }
+  }
+  .margin {
+    margin-left: 50vw !important;
+  }
+
+  @media (min-width: 1083px) {
+    .margin {
+      margin-left: 60vw !important;
+    }
+  }
+
+  .margin-faros {
+    margin-top: 9rem;
+  }
+
+  .side-over {
+    padding: auto;
+    width: 20% !important;
+    height: 1000px;
+    background-color: var(--blueSuzuki);
+    color: #fff;
+    position: absolute;
+    top: -50px;
+    right: 0;
+  }
+
+  .led {
+    height: 1000px;
+    background: #ecf1f4;
+  }
+
+  
+
+  //INSIDE
+  .bg-intrumentos {
+    height: 100%;
+    background: #ecf1f4;
+  }
+  .img-lcd{
+    width: 80% !important;
+    height: 80% !important;
+  }
+
+  .lcd {
+    min-height: 500px !important;
+    background: var(--blueSuzuki);
+  }
+  .subtitle-lcd {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #fff;
+  }
+
+  .inside-over {
+    //margin-top: 147%;
+    width: 510px;
+    background-color: #4b5e65;
+    color: #fff;
+    position: absolute;
+    bottom: -15%;
+    right: 0;
+  }
+  .bg-lcd{
+    width: 100%;
+    height: 100%;
+    background-color: #4b5e65;
+    color: #fff;
+  }
+  .bg-reloj{
+    width: 100%;
+    background-color: var(--blueSuzuki);
+    color: #fff;
+  }
+  @media (max-width: 1083px) {
+    .inside-over {
+      bottom: -15% !important;
+    }
+  }
+
+  .inside-over-reloj {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    //margin-top: 34vh;
+    width: 500px;
+    height: 300px;
+    background-color: var(--blueSuzuki);
+    color: #fff;
+    position: absolute;
+    top: 42%;
+    right: -15px;
+  }
+
+  .m-reloj {
+    margin-left: 49% !important;
+  }
+
+  .m-aire {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .repo-front {
+    width: 100%;
+    height: 75%;
+    background: linear-gradient(0deg, #0f2832, #0f2832);
+  }
+  .h {
+    height: 500px !important;
+    width: 500px !important;
+  }
+
+  .degraded {
+    // padding-left: 2px;
+    padding-bottom: 2px;
+    height: 582px;
+    animation-name: ch;
+    animation-duration: 1300ms;
+    @keyframes ch {
+      0% {
+        width: 100%;
+        height: 582px;
+        transform: scale(1.5);
+      }
+    }
+  }
+  //Responsive
+  @media (max-width: 990px) {
+    .outside-over {
+      width: 100% !important;
+      height: 100% !important;
+      background-color: var(--blueSuzuki);
+      color: #fff;
+      position: relative;
+      left: 0px;
+      right: 30px;
+      box-sizing: content-box;
+    }
+    .led {
+      height: 100%;
+      width: 100%;
+      right: -15px;
+      left: -15px;
+      box-sizing: content-box;
+    }
+    .outside-over-r {
+      width: 90% !important;
+      height: 100% !important;
+      position: relative !important;
+      top: 0;
+      left: 10% !important;
+    }
+
+    .outside-over-l {
+      width: 90% !important;
+      height: 100% !important;
+      position: relative !important;
+      top: 0;
+      left: 10% !important;
+      background-color: #4b5e65;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title-outside {
+      font-size: 3.12rem !important;
+    }
+    .title-inside{
+      font-size: 3.12rem !important;
+    }
+    .subtitle-outside {
+      font-size: 1.62rem !important;
+    }
+    .subtitle-faros {
+      font-size: 1.62rem !important;
+    }
+
+  
+    .subtitle-outside3 {
+      font-size: 1.06rem !important;
+    }
+  
+    .subtitle-outside4 {
+      font-size: 1.62rem !important;
+    }
+    .title-lcd {
+      font-size: 1.6rem !important;
+    }
+    .subtitle-lcd{
+      font-size: 1.06rem !important;
+    }
+  }
+}

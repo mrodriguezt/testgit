@@ -1,0 +1,218 @@
+.carouselSlickDiv {
+  .slick-prev,
+  .slick-next {
+    z-index: 10;
+    width: 60px !important;
+    height: 50px !important;
+    &::before {
+      font-size: 45px !important;
+    }
+  }
+
+  .slick-next {
+    right: 0 !important;
+  }
+
+  .slick-prev {
+    left: 0 !important;
+  }
+  .slick-dots {
+    position: relative;
+    li {
+      overflow: hidden;
+      width: 200px;
+      height: 40px;
+      .line-svg {
+        height: 20px;
+      }
+    }
+    .slick-active {
+      .line-active {
+        stroke-dasharray: 1000; /* (2PI * 40px) */
+        stroke-dashoffset: 1000;
+        animation: offsettozero 20s linear forwards;
+        stroke: #004f9f;
+      }
+    }
+  }
+
+  .item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img-gall {
+    width: 100%;
+    /*position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);*/
+  }
+  .imageBanner {
+    width: 100%;
+    height: 100%;
+    background-position: 0 center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+
+  .gallery {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: left !important;
+    bottom: 0px !important;
+    text-align: left !important;
+    color: #fff;
+  }
+
+  .alice-carousel__dots-item {
+    position: relative;
+    > li {
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+
+  @keyframes offsettozero {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .icon {
+    position: relative;
+    left: 28px;
+    bottom: 6px;
+    font-size: 10px;
+  }
+
+  .item-banner {
+    height: 92vh;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    width: auto;
+    .texto {
+      padding-left: 6rem;
+    }
+    h1 {
+      font-size: 90px;
+      line-height: 86px;
+      font-weight: 500;
+      color: #004f9f;
+    }
+    p {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 28px;
+      color: rgba(14, 32, 26, 0.6);
+      margin-top: 30px;
+    }
+    .btn {
+      margin-top: 5vh;
+    }
+  }
+  .blue-bg {
+    .text-banner {
+      position: absolute;
+      right: 0;
+      padding-right: 6rem;
+    }
+    &.derecha .text-banner {
+      right: auto;
+      left: 0;
+      z-index: 1;
+    }
+    .texto,
+    h1,
+    p {
+      color: white;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .item-banner {
+      height: 80vh;
+    }
+    .texto {
+      h1 {
+        font-size: 70px;
+        line-height: 66px;
+      }
+      p {
+        font-size: 18px;
+        margin-top: 5% !important;
+      }
+    }
+
+    .btn {
+      margin-top: 10% !important;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .item-banner {
+      .texto {
+        padding-left: 50px;
+      }
+    }
+    .slick-dots {
+      display: none !important;
+    }
+  }
+
+  @media only screen and (max-width: 991.5px) {
+    .slick-prev,
+    .slick-next {
+      top: 45%;
+    }
+    .imageBanner {
+      width: 100%;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+    .item {
+      flex-flow: column;
+      margin: auto;
+    }
+    .slick-dots {
+      display: none !important;
+    }
+    .gallery-dots {
+      display: none;
+    }
+    .texto {
+      padding: 30px 20px !important;
+      h1 {
+        font-size: 50px;
+        line-height: 50px;
+        color: var(--blueSuzuki);
+      }
+      p {
+        font-size: 26px;
+        line-height: 28px;
+        color: #888888;
+        padding-right: 23%;
+      }
+    }
+    .blue-bg {
+      .texto h1,
+      .texto p {
+        color: white;
+      }
+    }
+    .btn {
+      position: absolute;
+      z-index: 10;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 5%;
+      min-width: 70%;
+      margin-top: 0% !important;
+      padding: 10px 15px !important;
+    }
+  }
+}

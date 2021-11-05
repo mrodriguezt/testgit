@@ -1,0 +1,128 @@
+.container-gallery {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  /*Mobile*/
+  .next,
+  .before {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  .before {
+    background-image: url("/images/icons/arrowleft.png") !important;
+    width: 32px;
+    height: 32px;
+  }
+
+  .next {
+    background-image: url("/images/icons/arrowright.png") !important;
+    width: 32px;
+    height: 32px;
+  }
+
+  .before:hover {
+    background-image: url("/images/icons/arrowleftred.png") !important;
+  }
+
+  .next:hover {
+    background-image: url("/images/icons/arrowrightred.png") !important;
+  }
+
+  .gallery-small > .before,
+  .gallery-small > .next {
+    display: inline-block !important;
+  }
+
+  .react-multi-carousel-item--active.item_galery {
+    width: 700px !important;
+    height: auto !important;
+    margin-left: 3%;
+    margin-right: -24px;
+    margin-top: unset !important;
+  }
+
+  .react-multi-carousel-item--active.item_galery.react-multi-carousel-item--active
+    ~ .item_galery.react-multi-carousel-item--active {
+    margin-top: 195px !important;
+    width: 270px !important;
+    height: 220px !important;
+    margin-left: -15px !important;
+    margin-right: -2px !important;
+    cursor: pointer;
+  }
+  /*Items*/
+  
+  .caracteristicas {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    .text-sec {
+      font-size: 16px;
+      align-items: center;
+      display: flex;
+      color: #404042;
+      label {
+        margin: 0;
+      }
+      .icon-img.normal {
+        margin-right: 0.5rem;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+    button {
+      width: 100%;
+    }
+  }
+  .txt-al {
+    text-align: left !important;
+  }
+
+  /*Items info*/
+  .title-item {
+    width: 45%;
+    height: 40px;
+    line-height: 38px;
+  }
+
+  .item-img {
+    max-width: -webkit-fill-available;
+  }
+
+  .cutbig > .padd {
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .card {
+      height: 680px !important;
+    }
+    .txt-al {
+      text-align: center !important;
+    }
+    .caracteristicas {
+      align-items: flex-start;
+      .text-sec {
+        font-size: 17px;
+        align-items: center;
+        flex-flow: column;
+        img {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container-gallery {
+    min-height: fit-content;
+  }
+}

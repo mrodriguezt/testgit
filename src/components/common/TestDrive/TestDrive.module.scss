@@ -1,0 +1,37 @@
+.btns {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0px;
+  width: 280px;
+  left: 98%;
+  transform: translateX(-98%);
+  z-index: 999999;
+  button {
+    height: 40px !important;
+    padding: 0px 15px !important;
+    margin: 0px !important;
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Arial;
+    border-bottom: 0px !important;
+    box-shadow: 0px 1px 20px 1px rgb(59 97 117 / 47%);
+    cursor: pointer !important;
+    font-weight: bold; 
+  }
+  .test {
+    background: var(--cianSuzuki) !important;
+    border: 1px solid var(--cianSuzuki) !important;
+    margin: 0px 10px !important;
+    &:hover::after {
+      content: "Test Drive";
+      padding-left: 10px;;
+    }
+  }
+  .chat {
+    background: var(--blueSuzuki) !important;
+    border: 1px solid rgb(33 59 84) !important;
+  }
+}

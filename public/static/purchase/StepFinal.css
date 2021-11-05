@@ -1,0 +1,127 @@
+.textComparteEn{
+    //font-family: "Radikal";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top:0.2rem;
+    margin-bottom: 0;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textDownloadPdf{
+    //font-family: "Radikal";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.textHeader{
+        font-family: "Radikal";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+
+}
+
+.textHeaderPrincipal{
+    font-family: "Radikal";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+@media (max-width: 575.98px) { 
+    .textXsCenter{
+        text-align: center !important;
+    }
+
+    .textXsLeft{
+        text-align: left !important;
+    }
+
+    .textXsRight{
+        text-align: right !important;
+    }
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .textSmCenter{
+        text-align: center !important;
+    }
+
+    .textSmLeft{
+        text-align: left !important;
+    }
+
+    .textSmRight{
+        text-align: right !important;
+    }
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .textMdCenter{
+        text-align: center !important;
+    }
+
+    .textMdLeft{
+        text-align: left !important;
+    }
+
+    .textMdRight{
+        text-align: right !important;
+    }
+ }
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .textLgCenter{
+        text-align: center !important;
+    }
+
+    .textLgLeft{
+        text-align: left !important;
+    }
+
+    .textLgRight{
+        text-align: right !important;
+    }
+ }
+
+
+ @media (min-width: 1200px) {
+    .textXlCenter{
+        text-align: center !important;
+    }
+
+    .textXlLeft{
+        text-align: left !important;
+    }
+
+    .textXlRight{
+        text-align: right !important;
+    }
+ }
+
+
+.arrowToolTip{
+
+}
+
+.arrowToolTip :global(.rc-tooltip-arrow){
+    right: 5%;
+}

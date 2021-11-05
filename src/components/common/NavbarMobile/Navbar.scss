@@ -1,0 +1,321 @@
+@import "./CollapseItem.scss";
+.no-shadow{
+  box-shadow: none !important;
+}
+/*Home*/
+.navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    height: 100%;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active{
+    color: var(--blueSuzuki)!important;
+    font-weight: 700!important;
+    font-size: 18px !important;
+  }
+  
+  .nav-collapse{
+    height: 100%!important;
+  }
+  
+  .nav-collapse .navbar-nav{
+    height: 100%!important;
+  /*  padding-top: 15px;*/
+  }
+  
+  .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #1A1A1A;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #1A1A1A;
+  }
+  .dropdown-toggle::after {
+    float: right;
+    display: block;
+    margin-top: 12px;
+    margin-right: 3px;
+  }
+  .sticky-top {
+    background-color:#FFFFFF;
+  }
+  /*.dropdown-menu{
+    position: fixed !important;
+    top: 65px !important;
+    width: 100% !important;
+    border: unset !important;
+    border-radius: unset !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  
+    opacity: 1!important;
+    animation: animahide 0.6s forwards;  
+    -webkit-animation: animahide 0.6s forwards;  
+  }*/
+  .dropdown-menu.show{
+    animation: anima 0.6s forwards;  
+  }
+  
+  @keyframes anima {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes animahide {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  .static-position{
+      position:static !important;
+  }
+
+  /*Aspect ratio imagenes*/
+  .img-dropdown{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .text-boler{
+    font-weight: bold;
+  }
+
+  .btn-drop-down{
+      display: block !important;
+      width: 100% !important;
+      padding-top:1.5rem !important;
+      padding-bottom:1.5rem  !important;
+      line-height: 0  !important;
+  }
+
+  .text-title-size-dropdown{
+    font-size:1.4rem;
+  }
+
+  #container-navlink .nav-link:not(.btn-toyota-go):not(.nav-link-dropdown){
+      padding-top: 1.2rem  !important;
+      padding-bottom: 1.2rem  !important;
+  }
+  #container-navlink .nav-link.btn-toyota-go{
+      padding-top: 0.9rem  !important;
+      padding-bottom: 0.9rem  !important;
+  }
+   #container-navlink .nav-link.btn-toyota-go span{
+      padding-left: 2rem  !important;
+      padding-right: 2rem  !important;
+  }
+
+  #container-navlink .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding: 0.28rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9 5' fill='none'%3E%3Cpath d='M0.960063 4.5284C0.669271 4.23587 0.669271 3.76342 0.960064 3.4709L3.96006 0.470898C4.10467 0.33139 4.2992 0.255737 4.50007 0.260898C4.69942 0.259745 4.89103 0.338008 5.03257 0.478398L8.03257 3.4784C8.32459 3.77249 8.32291 4.24763 8.02882 4.53965C7.73472 4.83167 7.25959 4.82999 6.96757 4.5359L4.50007 2.0759L2.02506 4.5359C1.88324 4.67689 1.69098 4.75541 1.491 4.754C1.29102 4.75259 1.09989 4.67138 0.960063 4.5284Z' fill='%2320201E'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    margin-top: 7px;
+    transform: rotate(-180deg);
+
+  }
+ .navbar-toggler{
+   border:0 !important;
+ }
+  .sidebar{
+    position: fixed;
+    
+    width: 101vw;
+    transition: all .3s ease;
+    transform: translate3D(100%,0,0);
+    -ms-transform: translate3D(100%,0,0);
+    -o-transform: translate3D(100%,0,0);
+    -webkit-transform: translate3D(100%,0,0);
+    -moz-transform: translate3D(100%,0,0);
+    top:0;
+    left:0;
+    z-index: 2000;
+    background-color: white;
+    height: 101vh !important;
+   
+  }
+  
+  .side-bar-content{
+    display: flex;
+    flex-direction: column;
+    padding:0 16px;
+    
+    
+    
+  }
+  .side-bar-content .link-side-bar-content
+  {
+    color: #404042 !important;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-weight: 600;
+    padding-top: 0 !important;
+    padding-bottom: 1.5rem;
+  }
+  .side-bar-content .card-header{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .sidebar .sidebar-icon-close
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px 18px;
+
+  }
+
+  .header-collpase-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .l-header
+  {
+    display: block;
+    // margin-bottom: 3%;
+    color: #404042 !important;
+  }
+
+  .side-bar-content  .collapse .l-header
+  {
+   margin:14px 0;
+  }
+
+  .side-bar-content .btn-toyota-go{
+    padding: 0.5rem 10px;
+    margin-bottom: 4rem;
+  }
+  .sidebar .container-scroll{
+    height: 100%;
+    overflow: auto;
+  }
+  .side-bar-content .header-collpase-card .icon-dropdown{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB3SURBVHgB7ZHBDYAgDEU/ToKbFAfXbiKTqBQwCGlPXmkCNOH9RxqAWb/LvQ3RdpbuCswcNZiIPLAc0jPvq5xLu75ly0ABzbCvLEZBSCtqkiEcCzuM0ECXQCfhKOPUd7rwd8ROoEsAK6wKFAmssCnoJVlg/sws4AHSNDtK46L5ogAAAABJRU5ErkJggg==');
+    width: 1rem;
+    height: 1rem;
+    background-size: 100%;
+    margin-right: 0.5rem;
+    background-repeat: no-repeat;
+  }
+
+  .side-bar-content .header-collpase-card.show .icon-dropdown{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABmSURBVHgB7ZDBDcAgCEXBSRhFJ5dRnKQ0FhrbBEgPPfpPKrynArCDUaHWSgCl6+5ozDw+Cx4w2dGIJJjDYgBSJMEclmZtPZJgBt+NWvMlZd3vwzO6nq+5vkRruC+BgAf7EoGdH3MC0TZMxtvHp0kAAAAASUVORK5CYII=');
+  
+  }
+
+  .sidebar-icon-close img{
+    width: 30px;
+    height: 30px;
+    margin-right: 0.75rem;
+  }
+
+  /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  #container-navlink .dropdown-menu{
+    border: 0 !important;
+  }
+
+  .btn-toyota-go span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 2px;
+    padding-top: 1.8rem !important;
+    padding-bottom: 1.8rem !important;
+  }
+  .sidebar.show{
+    transform: translate3D(0%,0,0);
+    -ms-transform: translate3D(0%,0,0);
+    -o-transform: translate3D(0%,0,0);
+    -webkit-transform: translate3D(0%,0,0);
+    -moz-transform: translate3D(0%,0,0);
+  }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  #container-navlink .dropdown-menu{
+    border: 0 !important;
+  }
+
+  .btn-toyota-go span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 2px;
+    padding-top: 1.8rem !important;
+    padding-bottom: 1.8rem !important;
+  }
+  .sidebar.show{
+    transform: translate3D(0%,0,0);
+    -ms-transform: translate3D(0%,0,0);
+    -o-transform: translate3D(0%,0,0);
+    -webkit-transform: translate3D(0%,0,0);
+    -moz-transform: translate3D(0%,0,0);
+  }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #container-navlink .dropdown-menu{
+    border: 0 !important;
+  }
+  .btn-toyota-go span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 2px;
+    padding-top: 1.8rem !important;
+    padding-bottom: 1.8rem !important;
+  }
+  .sidebar.show{
+    transform: translate3D(0%,0,0);
+    -ms-transform: translate3D(0%,0,0);
+    -o-transform: translate3D(0%,0,0);
+    -webkit-transform: translate3D(0%,0,0);
+    -moz-transform: translate3D(0%,0,0);
+  }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+   
+    .text-title-size-dropdown{
+        font-size:1.2rem;
+      }
+
+      #container-navlink .nav-link{
+        padding-left: 16px  !important;
+        padding-right: 16px  !important;
+    }
+    
+  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  #container-navlink .nav-link.btn-toyota-go span{
+    padding-left: 3rem  !important;
+    padding-right: 3rem  !important;
+}
+
+ }

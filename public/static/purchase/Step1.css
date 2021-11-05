@@ -1,0 +1,117 @@
+.accordion > .card:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.version {
+  background: #ffffff !important;
+  padding: 9px 56px !important;
+  border: 1px solid var(--blueSuzuki) !important;
+  box-sizing: border-box;
+  border-radius: 2px !important;
+  margin-right: 14px;
+}
+.plan {
+  background: #ffffff;
+  width: 180px;
+  border: 1px solid #c0c0c0;
+  box-sizing: border-box;
+  border-radius: 2px !important;
+  margin-right: 14px;
+}
+.plan .card-body {
+  padding: 1rem;
+}
+.step1 .title4 {
+  font-size: 23px !important;
+  line-height: 140% !important;
+  color: #404042 !important;
+}
+.btn-plan {
+  background-color: unset !important;
+  border: unset !important;
+  margin-top: -10px;
+}
+
+.p-name {
+  width: 110px;
+}
+
+.p-name .p-nombre {
+  color: #404042;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.p-name .p-precio {
+  font-size: 24px;
+  line-height: 100%;
+  color: #004f9f;
+}
+.text-tit{
+  font-style: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #003145
+}
+.text-tit2{
+  font-style: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #888888;
+}
+.body-accordion {
+  width: 130px;
+}
+
+
+.body-accordion li {
+  margin: 0px;
+  /* width: 65%; */
+  font-size: 12px;
+  line-height: 140%;
+  color: #888888;
+  list-style-position: inside;
+  padding-inline-start: 0px !important;
+}
+
+.color {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 2px;
+  padding-right: 10px;
+}
+.color-b{
+  background:var(--blueSuzuki);
+}
+.color.selected {
+  border: 1px solid var(--blueSuzuki);
+  width: 28px;
+  height: 28px;
+}
+.color div {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.color.selected div {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.color.selected div::after {
+  content: url("/images/icons/checkb.png") !important;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 5px;
+}

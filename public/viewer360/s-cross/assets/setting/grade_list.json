@@ -1,0 +1,169 @@
+{
+    "GRADE": {
+        "categoryLabel": "Grade",
+        "materialDirPath": "materials/",
+        "groups": [
+            {
+                "type": "radio",
+                "group_id": "GRD",
+                "items": [
+                    {
+                        "visible": false,
+                        "memo": "",
+                        "files": {
+                            "combinations": "GA/GA_combinations.json",
+                            "materials": "GA/GA_materials.json",
+                            "items": "GA/GA_items.json",
+                            "features": "GA/GA_features.json"
+                        },
+                        "checked": false,
+                        "price": "",
+                        "item_id": "GRD_GA",
+                        "marketFlag": "",
+                        "description": "",
+                        "subItem": "",
+                        "label": "GA",
+                        "isConfig": true,
+                        "thumbnail": "GRD_GA"
+                    },
+                    {
+                        "subItem": "",
+                        "memo": "",
+                        "marketFlag": "",
+                        "isConfig": true,
+                        "description": "",
+                        "checked": true,
+                        "visible": true,
+                        "label": "GL",
+                        "files": {
+                            "combinations": "GL/GL_combinations.json",
+                            "materials": "GL/GL_materials.json",
+                            "items": "GL/GL_items.json",
+                            "features": "GL/GL_features.json"
+                        },
+                        "price": "",
+                        "item_id": "GRD_GL",
+                        "thumbnail": "GRD_GL"
+                    },
+                    {
+                        "subItem": "",
+                        "memo": "",
+                        "marketFlag": "",
+                        "isConfig": true,
+                        "description": "",
+                        "checked": false,
+                        "visible": false,
+                        "label": "GL+",
+                        "files": {
+                            "combinations": "GLP/GLP_combinations.json",
+                            "materials": "GLP/GLP_materials.json",
+                            "items": "GLP/GLP_items.json",
+                            "features": "GLP/GLP_features.json"
+                        },
+                        "price": "",
+                        "item_id": "GRD_GLP",
+                        "thumbnail": "GRD_GLP"
+                    },
+                    {
+                        "visible": false,
+                        "memo": "",
+                        "files": {
+                            "combinations": "GLX/GLX_combinations.json",
+                            "materials": "GLX/GLX_materials.json",
+                            "items": "GLX/GLX_items.json",
+                            "features": "GLX/GLX_features.json"
+                        },
+                        "checked": false,
+                        "price": "",
+                        "item_id": "GRD_GLX",
+                        "marketFlag": "",
+                        "description": "",
+                        "subItem": "",
+                        "label": "GLX",
+                        "isConfig": true,
+                        "thumbnail": "GRD_GLX"
+                    },
+                    {
+                        "visible": false,
+                        "memo": "",
+                        "files": {
+                            "combinations": "GA_D/GA_D_combinations.json",
+                            "materials": "GA_D/GA_D_materials.json",
+                            "items": "GA_D/GA_D_items.json",
+                            "features": "GA_D/GA_D_features.json"
+                        },
+                        "checked": false,
+                        "price": "",
+                        "item_id": "GRD_GA_D",
+                        "marketFlag": "",
+                        "description": "",
+                        "subItem": "",
+                        "label": "Dummy GA",
+                        "isConfig": true,
+                        "thumbnail": "GRD_GA_D"
+                    },
+                    {
+                        "visible": false,
+                        "memo": "",
+                        "files": {
+                            "combinations": "GL_D/GL_D_combinations.json",
+                            "materials": "GL_D/GL_D_materials.json",
+                            "items": "GL_D/GL_D_items.json",
+                            "features": "GL_D/GL_D_features.json"
+                        },
+                        "checked": false,
+                        "price": "",
+                        "item_id": "GRD_GL_D",
+                        "marketFlag": "",
+                        "description": "",
+                        "subItem": "",
+                        "label": "Dummy GL",
+                        "isConfig": true,
+                        "thumbnail": "GRD_GL_D"
+                    },
+                    {
+                        "visible": false,
+                        "memo": "",
+                        "files": {
+                            "combinations": "GLP_D/GLP_D_combinations.json",
+                            "materials": "GLP_D/GLP_D_materials.json",
+                            "items": "GLP_D/GLP_D_items.json",
+                            "features": "GLP_D/GLP_D_features.json"
+                        },
+                        "checked": false,
+                        "price": "",
+                        "item_id": "GRD_GLP_D",
+                        "marketFlag": "",
+                        "description": "",
+                        "subItem": "",
+                        "label": "Dummy GL+",
+                        "isConfig": true,
+                        "thumbnail": "GRD_GLP_D"
+                    },
+                    {
+                        "visible": false,
+                        "memo": "",
+                        "files": {
+                            "combinations": "GLX_D/GLX_D_combinations.json",
+                            "materials": "GLX_D/GLX_D_materials.json",
+                            "items": "GLX_D/GLX_D_items.json",
+                            "features": "GLX_D/GLX_D_features.json"
+                        },
+                        "checked": false,
+                        "price": "",
+                        "item_id": "GRD_GLX_D",
+                        "marketFlag": "",
+                        "description": "",
+                        "subItem": "",
+                        "label": "Dummy GLX",
+                        "isConfig": true,
+                        "thumbnail": "GRD_GLX_D"
+                    }
+                ]
+            }
+        ],
+        "angleStep": 36,
+        "jsonDirPath": "../assets/setting/",
+        "vehicleName": "SX4 S-CROSS 2016MC"
+    }
+}

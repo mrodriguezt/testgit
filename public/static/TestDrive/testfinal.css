@@ -1,0 +1,147 @@
+.h-100 {
+  height: 100% !important;
+}
+.title-addv {
+  font-size: 32px !important;
+  font-weight: bold;
+  color: var(--blueSuzuki);
+}
+.container-test-final .btn-conoce-modelo {
+  padding: 1.5rem 1.5rem !important;
+  border: 1px solid #e40521;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: transparent !important;
+
+  color: #e40521;
+  line-height: 0;
+
+  font-size: 16px;
+  font-weight: bold !important;
+}
+
+.container-test-final .container-title {
+  width: 585px;
+}
+
+.container-test-final .links {
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  text-decoration-line: underline;
+  color: #404042;
+}
+
+.container-test-final .container-label-test-drive {
+  background: #fdfdfd;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 5px 0px;
+  align-items: center;
+  padding: 10px;
+}
+
+.container-test-final .container-label-test-drive label {
+  font-size: 18px;
+  line-height: 100%;
+  color: #404042;
+  font-weight: bold;
+  margin: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-test-final .container-label-test-drive .info {
+  font-size: 16px;
+  line-height: 100%;
+  color: #888888;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.container-test-final .header-collpase-tes-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-test-final .titulo-card-test {
+  font-size: 14px;
+
+  color: rgba(64, 64, 66, 1);
+}
+
+.container-test-final .text-card-map {
+  font-size: 24px;
+  text-align: left;
+  color: #404042;
+  font-weight: bold;
+}
+
+.container-test-final .text-direction-map {
+  font-size: 16px;
+  text-align: left;
+  color: #888888;
+}
+@media (max-width: 575.98px) {
+  .container-test-final .header-breadcrumb,
+  .container-test-final .container-label-test-drive {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .container-test-final .header-breadcrumb div div {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-test-final .header-breadcrumb div div {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .container-test-final .header-breadcrumb {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-test-final .header-breadcrumb div div {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .container-test-final .header-breadcrumb {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container-test-final .text-descripcion {
+    font-size: 14px;
+    white-space: break-spaces;
+  }
+  .container-test-final .text-descripcion.last-child {
+    text-align: justify;
+  }
+
+  .container-test-final .container-label-test-drive label {
+    font-size: 16px;
+  }
+
+  .container-test-final .text-card-map {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .container-test-final .text-direction-map {
+    font-size: 14px;
+    text-align: left;
+  }
+  .container-test-final .img-printer {
+    width: 1.5rem;
+  }
+}

@@ -1,0 +1,47 @@
+.seguroDiv {
+  align-items: center;
+  justify-content: space-between;
+  .titulo {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 86px;
+    color: var(--blueSuzuki);
+  }
+  .segundoNivel{
+      font-size: 44px;
+      font-weight: bold;
+      line-height: 100%;
+      color: var(--blueSuzuki);
+  }
+  .szk{
+
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 124px;
+  }
+  .track{
+
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .bgGray{
+    background: #4B5E65;
+    padding: 46px 25px 46px 70px;
+  }
+  .blueSeccion{
+    margin-top: -5%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .texto{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160%;
+    color: black;
+  }
+  .seccion{
+      align-items: center;
+      justify-content: center;
+  }
+}
